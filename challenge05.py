@@ -33,13 +33,15 @@ while not year_is_valid:
 age = 2017 - year
 # The + sign is used to concatenate the name with the following string, so that the space isn't
 # added in before the .
-print("Hello", name + ". Since you were born in the year", year, "I think you are", age, "years old")
+print("Hello", name + ". Since you were born in the year", year, "I think you are", age, "years old.")
 
 # Check if the age prediction was correct, if not add one to their age
 correct = input("Was our guess at your age correct? (Y/N) ")
 # Ignore everything apart from them selecting n or N
 if correct.upper() == "N":
-    age = age + 1
+    # My original calculation that I discussed in the session was wrong here, they're too old if
+    # they haven't had their birthday yet (my logic was wrong).
+    age = age - 1
     print("Ah! You must be", age, "years old then.")
 
 # Do integer division to get an integer back (this truncates the answer rather than rounding it)
