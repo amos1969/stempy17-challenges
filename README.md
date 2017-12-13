@@ -31,3 +31,6 @@ executing or the computer has been shut down.
 
 10. Develop a way to tell the user the name of one other previous user who shares the same birth year, eg. "You were born in
 the same year as Michael"
+
+There are also two sets of example code, covering the sessions on functions and the sessions on file input/output.
+
