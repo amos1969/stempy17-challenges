@@ -8,7 +8,6 @@
 # How to do a menu system using functions
 #######################################################################################################
 
-
 def main():
     while True:
         print("Welcome to the program")
@@ -30,17 +29,13 @@ def main():
             print("Please choose one of the options")
     print("thank you for using the program")
 
-
 def option_a():
     print("We're in option A here")
-
 
 def option_b():
     print("We're in option B here")
 
-
 def option_c():
     print("We're in option C here")
-
 
 main()
