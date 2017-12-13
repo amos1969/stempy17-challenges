@@ -18,5 +18,6 @@
 
 # Combining them
 
+# Discuss global vs local variables
 
 
