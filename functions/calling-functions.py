@@ -9,3 +9,11 @@
 #######################################################################################################
 
 # Example function calls
+print("Hello York", "How are you?")
+
+["One", "Two", "Three"].sort()
+
+value = str(23)
+some_string = int("23")
+
+user_choice = input()
