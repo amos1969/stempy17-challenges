@@ -9,6 +9,21 @@
 #######################################################################################################
 
 
+def first_function():
+    print("We're in the first function here")
+    score = score + 1
+    print(score)
+
+
+def second_function(name):
+    print("Hello", name, "we're in the second function")
+    long_name = "Mr " + name
+
+
+def third_function():
+    print("In function 3 now")
+
+
 def main():
     second_function("Dave")
     third_function()
@@ -16,17 +31,8 @@ def main():
     third_function()
     second_function("Alan")
 
-
-def first_function():
-    print("We're in the first function here")
-
-
-def second_function(name):
-    print("Hello", name, "we're in the second function")
-
-
-def third_function():
-    print("In function 3 now")
-
-
+score = 5
 main()
+#####################################################################################################
+#   NO CODE BELOW THIS POINT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#####################################################################################################
